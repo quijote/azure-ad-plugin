@@ -47,7 +47,7 @@ public class ObjId2FullSidMapTest {
         Assert.assertEquals("id", ObjId2FullSidMap.extractObjectId(" (id)"));
     }
 
-    @Ignore
+    //@Ignore
     @Test
     public void testExtractObjectIdPerformance() throws Exception {
         final int numWarmupIterations = 1_000_000;
